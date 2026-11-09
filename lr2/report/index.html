@@ -1,0 +1,1351 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../lr1/report/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Отчёт - Веб-программирование. Лукис Вадим Вадимович. K3342</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no2-django" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Веб-программирование. Лукис Вадим Вадимович. K3342" class="md-header__button md-logo" aria-label="Веб-программирование. Лукис Вадим Вадимович. K3342" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Веб-программирование. Лукис Вадим Вадимович. K3342
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Отчёт
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Веб-программирование. Лукис Вадим Вадимович. K3342" class="md-nav__button md-logo" aria-label="Веб-программирование. Лукис Вадим Вадимович. K3342" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Веб-программирование. Лукис Вадим Вадимович. K3342
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lr1/report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.1. Модели данных об автовладельцах
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.1. Модели данных об автовладельцах">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-crud-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.2. CRUD-интерфейсы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.2. CRUD-интерфейсы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.3. Расширение модели пользователя
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.3. Расширение модели пользователя">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Лабораторная часть. Вариант 6 — Табло победителей автогонок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Лабораторная часть. Вариант 6 — Табло победителей автогонок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ключевые представления
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.1. Модели данных об автовладельцах
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.1. Модели данных об автовладельцах">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-crud-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.2. CRUD-интерфейсы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.2. CRUD-интерфейсы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.3. Расширение модели пользователя
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.3. Расширение модели пользователя">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Лабораторная часть. Вариант 6 — Табло победителей автогонок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Лабораторная часть. Вариант 6 — Табло победителей автогонок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ключевые представления
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результат работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no2-django">Лабораторная работа №2. Простой сайт на Django</h1>
+<p><strong>Студент:</strong> Лукис Вадим Вадимович<br />
+<strong>Группа:</strong> K3342<br />
+<strong>Вариант:</strong> 6 (Табло победителей автогонок)</p>
+<h2 id="_1">Цель работы</h2>
+<p>Овладеть практическими навыками и умениями реализации web-сервисов средствами Django.</p>
+<hr />
+<h2 id="21">Практическая работа 2.1. Модели данных об автовладельцах</h2>
+<h3 id="_2">Описание</h3>
+<p>В приложении <code>racing</code> созданы модели данных об автовладельцах:</p>
+<ul>
+<li><code>CarOwner</code> — владелец автомобиля (имя, фамилия, дата рождения, номер паспорта, адрес);</li>
+<li><code>Car</code> — автомобиль (номерной знак, марка, модель, цвет, год выпуска);</li>
+<li><code>Ownership</code> — ассоциативная сущность (промежуточная модель), реализующая связь «многие-ко-многим» между владельцем и автомобилем с дополнительными атрибутами: дата начала и дата окончания владения.</li>
+</ul>
+<p>Использованы внешние ключи (<code>ForeignKey</code>), поля выбора (<code>choices</code>) и правильно оформленная промежуточная модель.</p>
+<h3 id="_3">Код</h3>
+<pre><code class="language-python">class CarOwner(models.Model):
+    &quot;&quot;&quot;Модель владельца автомобиля&quot;&quot;&quot;
+    first_name = models.CharField(max_length=50, verbose_name=&quot;Имя&quot;)
+    last_name = models.CharField(max_length=50, verbose_name=&quot;Фамилия&quot;)
+    birth_date = models.DateField(verbose_name=&quot;Дата рождения&quot;, null=True, blank=True)
+    passport_number = models.CharField(max_length=10, verbose_name=&quot;Номер паспорта&quot;, unique=True)
+    address = models.TextField(verbose_name=&quot;Адрес&quot;, blank=True, null=True)
+
+    cars = models.ManyToManyField('Car', through='Ownership', verbose_name=&quot;Автомобили&quot;)
+
+    class Meta:
+        verbose_name = &quot;Владелец&quot;
+        verbose_name_plural = &quot;Владельцы&quot;
+
+    def __str__(self):
+        return f&quot;{self.last_name} {self.first_name}&quot;
+
+
+class Car(models.Model):
+    &quot;&quot;&quot;Модель автомобиля&quot;&quot;&quot;
+    BRAND_CHOICES = [
+        ('BMW', 'BMW'),
+        ('Mercedes', 'Mercedes-Benz'),
+        ('Audi', 'Audi'),
+        ('Toyota', 'Toyota'),
+        ('Honda', 'Honda'),
+        ('Ford', 'Ford'),
+        ('Volkswagen', 'Volkswagen'),
+        ('Nissan', 'Nissan'),
+        ('Hyundai', 'Hyundai'),
+        ('Kia', 'Kia'),
+    ]
+
+    COLOR_CHOICES = [
+        ('black', 'Чёрный'),
+        ('white', 'Белый'),
+        ('red', 'Красный'),
+        ('blue', 'Синий'),
+        ('silver', 'Серебристый'),
+        ('gray', 'Серый'),
+    ]
+
+    license_plate = models.CharField(max_length=10, verbose_name=&quot;Номер автомобиля&quot;, unique=True)
+    brand = models.CharField(max_length=20, choices=BRAND_CHOICES, verbose_name=&quot;Марка&quot;)
+    model = models.CharField(max_length=50, verbose_name=&quot;Модель&quot;)
+    color = models.CharField(max_length=10, choices=COLOR_CHOICES, verbose_name=&quot;Цвет&quot;)
+    year = models.IntegerField(verbose_name=&quot;Год выпуска&quot;)
+
+    class Meta:
+        verbose_name = &quot;Автомобиль&quot;
+        verbose_name_plural = &quot;Автомобили&quot;
+
+    def __str__(self):
+        return f&quot;{self.brand} {self.model} ({self.license_plate})&quot;
+
+
+class Ownership(models.Model):
+    &quot;&quot;&quot;Промежуточная модель владения автомобилем&quot;&quot;&quot;
+    car_owner = models.ForeignKey(CarOwner, on_delete=models.CASCADE, verbose_name=&quot;Владелец&quot;)
+    car = models.ForeignKey(Car, on_delete=models.CASCADE, verbose_name=&quot;Автомобиль&quot;)
+    start_date = models.DateField(verbose_name=&quot;Дата начала владения&quot;)
+    end_date = models.DateField(verbose_name=&quot;Дата окончания владения&quot;, null=True, blank=True)
+
+    class Meta:
+        verbose_name = &quot;Владение&quot;
+        verbose_name_plural = &quot;Владения&quot;
+        unique_together = ['car_owner', 'car']
+
+    def __str__(self):
+        return f&quot;{self.car_owner} владеет {self.car} с {self.start_date}&quot;
+</code></pre>
+<h3 id="_4">Результат работы</h3>
+<p>Созданы и применены миграции, схема БД синхронизирована с кодом:</p>
+<p><img alt="Создание и применение миграций" src="../img/pr1_migrations.png" /></p>
+<p>Модели зарегистрированы в Django Admin, записи добавлены через админ-панель:</p>
+<p><img alt="Список владельцев в админке" src="../img/pr1_owners.png" /></p>
+<p><img alt="Список владений в админке" src="../img/pr1_owning.png" /></p>
+<p><img alt="Список автомобилей в админке" src="../img/pr1_cars.png" /></p>
+<p><img alt="Форма добавления автомобиля" src="../img/pr1_add_car.png" /></p>
+<hr />
+<h2 id="22-crud-">Практическая работа 2.2. CRUD-интерфейсы</h2>
+<h3 id="_5">Описание</h3>
+<p>Для моделей <code>CarOwner</code> и <code>Car</code> реализованы CRUD-интерфейсы (Create, Read, Update, Delete) средствами представлений на основе функций (FBV): список объектов, детальная страница, создание, редактирование и удаление с подтверждением. Формы построены на <code>ModelForm</code>, страницы — на HTML-шаблонах с оформлением Bootstrap.</p>
+<h3 id="_6">Код</h3>
+<p>Представление создания объекта (<code>views.py</code>):</p>
+<pre><code class="language-python">def car_owner_create(request):
+    &quot;&quot;&quot;Создание нового владельца&quot;&quot;&quot;
+    if request.method == 'POST':
+        form = CarOwnerForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Владелец успешно создан!')
+            return redirect('car_owner_list')
+    else:
+        form = CarOwnerForm()
+    return render(request, 'racing/carowner_form.html', {'form': form, 'title': 'Добавить владельца'})
+</code></pre>
+<p>Форма (<code>forms.py</code>):</p>
+<pre><code class="language-python">class CarOwnerForm(forms.ModelForm):
+    &quot;&quot;&quot;Форма для создания/редактирования владельца&quot;&quot;&quot;
+    class Meta:
+        model = CarOwner
+        fields = ['first_name', 'last_name', 'birth_date', 'passport_number', 'address']
+        widgets = {
+            'birth_date': forms.DateInput(attrs={'type': 'date'}),
+            'address': forms.Textarea(attrs={'rows': 3}),
+        }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field in self.fields.values():
+            if not isinstance(field.widget, (forms.CheckboxInput, forms.RadioSelect, forms.Select)):
+                field.widget.attrs.setdefault('class', 'form-control')
+</code></pre>
+<h3 id="_7">Результат работы</h3>
+<p><img alt="Список владельцев" src="../img/pr2_owners.png" /></p>
+<p><img alt="Детальная страница владельца" src="../img/pr2_owner_details.png" /></p>
+<p><img alt="Список автомобилей" src="../img/pr2_cars.png" /></p>
+<p><img alt="Форма создания автомобиля" src="../img/pr2_add_car.png" /></p>
+<hr />
+<h2 id="23">Практическая работа 2.3. Расширение модели пользователя</h2>
+<h3 id="_8">Описание</h3>
+<p>Модель пользователя расширена через <code>AbstractUser</code>: к стандартному пользователю добавлены поля «номер паспорта», «домашний адрес», «национальность». Модель подключена через <code>AUTH_USER_MODEL = 'racing.User'</code> в <code>settings.py</code> до первой миграции. Новые поля отображаются в Django Admin, реализован интерфейс создания пользователя с новыми атрибутами.</p>
+<h3 id="_9">Код</h3>
+<pre><code class="language-python">class User(AbstractUser):
+    &quot;&quot;&quot;Расширенная модель пользователя&quot;&quot;&quot;
+    passport_number = models.CharField(
+        max_length=10,
+        blank=True,
+        null=True,
+        verbose_name=&quot;Номер паспорта&quot;
+    )
+    home_address = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=&quot;Домашний адрес&quot;
+    )
+    nationality = models.CharField(
+        max_length=50,
+        blank=True,
+        null=True,
+        verbose_name=&quot;Национальность&quot;
+    )
+
+    def __str__(self):
+        return f&quot;{self.username} ({self.get_full_name()})&quot;
+</code></pre>
+<p>Регистрация в админке с новыми полями:</p>
+<pre><code class="language-python">@admin.register(User)
+class UserAdmin(BaseUserAdmin):
+    fieldsets = BaseUserAdmin.fieldsets + (
+        ('Дополнительная информация', {
+            'fields': ('passport_number', 'home_address', 'nationality')
+        }),
+    )
+    list_display = ('username', 'email', 'first_name', 'last_name',
+                    'passport_number', 'nationality', 'is_staff')
+</code></pre>
+<h3 id="_10">Результат работы</h3>
+<p>Интерфейс регистрации (создания) пользователя:</p>
+<p><img alt="Регистрация пользователя" src="../img/lr_registration.png" /></p>
+<hr />
+<h2 id="6">Лабораторная часть. Вариант 6 — Табло победителей автогонок</h2>
+<h3 id="_11">Описание</h3>
+<p>Реализован веб-сервис «Табло победителей автогонок». Хранится информация об участниках автогонок (ФИО участника, название команды, описание автомобиля, описание участника, опыт и класс участника), гонках, регистрациях гонщиков на гонки (с временем заезда и результатом), а также отзывах к гонкам (дата заезда, текст комментария, тип комментария, рейтинг 1–10, информация о комментаторе).</p>
+<p>Реализованный функционал:</p>
+<ul>
+<li>регистрация новых пользователей;</li>
+<li>просмотр автогонок и регистрация гонщиков; пользователь может редактировать и удалять свои регистрации;</li>
+<li>написание отзывов и комментариев к автогонкам (только для зарегистрированных пользователей);</li>
+<li>администратор указывает время заезда и результат средствами Django Admin;</li>
+<li>в клиентской части формируется таблица всех заездов и результатов конкретной гонки.</li>
+</ul>
+<h3 id="_12">Модель данных</h3>
+<pre><code class="language-python">class Racer(models.Model):
+    &quot;&quot;&quot;Модель гонщика&quot;&quot;&quot;
+    user = models.OneToOneField(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name=&quot;Пользователь&quot;,
+        related_name='racer_profile'
+    )
+    first_name = models.CharField(max_length=50, verbose_name=&quot;Имя&quot;)
+    last_name = models.CharField(max_length=50, verbose_name=&quot;Фамилия&quot;)
+    team_name = models.CharField(max_length=100, verbose_name=&quot;Название команды&quot;)
+    car_description = models.TextField(verbose_name=&quot;Описание автомобиля&quot;)
+    experience = models.IntegerField(verbose_name=&quot;Опыт (лет)&quot;, default=0)
+    racer_class = models.CharField(max_length=50, verbose_name=&quot;Класс участника&quot;)
+
+    class Meta:
+        verbose_name = &quot;Гонщик&quot;
+        verbose_name_plural = &quot;Гонщики&quot;
+
+    def __str__(self):
+        return f&quot;{self.last_name} {self.first_name} ({self.team_name})&quot;
+
+
+class Race(models.Model):
+    &quot;&quot;&quot;Модель гонки&quot;&quot;&quot;
+    name = models.CharField(max_length=200, verbose_name=&quot;Название гонки&quot;)
+    race_date = models.DateTimeField(verbose_name=&quot;Дата и время гонки&quot;)
+    track_location = models.CharField(max_length=200, verbose_name=&quot;Место проведения&quot;)
+    description = models.TextField(verbose_name=&quot;Описание гонки&quot;, blank=True)
+    racers = models.ManyToManyField(
+        Racer,
+        through='RaceRegistration',
+        verbose_name=&quot;Участники&quot;,
+        related_name='races'
+    )
+
+    class Meta:
+        verbose_name = &quot;Гонка&quot;
+        verbose_name_plural = &quot;Гонки&quot;
+        ordering = ['-race_date']
+
+    def __str__(self):
+        return f&quot;{self.name} ({self.race_date.strftime('%d.%m.%Y')})&quot;
+
+
+class RaceRegistration(models.Model):
+    &quot;&quot;&quot;Промежуточная модель регистрации на гонку&quot;&quot;&quot;
+    racer = models.ForeignKey(
+        Racer,
+        on_delete=models.CASCADE,
+        verbose_name=&quot;Гонщик&quot;,
+        related_name='registrations'
+    )
+    race = models.ForeignKey(
+        Race,
+        on_delete=models.CASCADE,
+        verbose_name=&quot;Гонка&quot;,
+        related_name='registrations'
+    )
+    registration_date = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name=&quot;Дата регистрации&quot;
+    )
+
+    race_time = models.CharField(
+        max_length=20,
+        blank=True,
+        null=True,
+        verbose_name=&quot;Время заезда&quot;
+    )
+    result = models.PositiveIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=&quot;Место (результат)&quot;
+    )
+
+    class Meta:
+        verbose_name = &quot;Регистрация на гонку&quot;
+        verbose_name_plural = &quot;Регистрации на гонки&quot;
+        unique_together = ['racer', 'race']
+
+    def __str__(self):
+        return f&quot;{self.racer} - {self.race}&quot;
+
+
+class Review(models.Model):
+    &quot;&quot;&quot;Модель отзыва к гонке&quot;&quot;&quot;
+    COMMENT_TYPES = [
+        ('cooperation', 'Вопрос о сотрудничестве'),
+        ('race', 'Вопрос о гонках'),
+        ('other', 'Иное'),
+    ]
+
+    race = models.ForeignKey(
+        Race,
+        on_delete=models.CASCADE,
+        verbose_name=&quot;Гонка&quot;,
+        related_name='reviews'
+    )
+    author = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name=&quot;Автор отзыва&quot;,
+        related_name='reviews'
+    )
+    comment_text = models.TextField(verbose_name=&quot;Текст комментария&quot;)
+    comment_type = models.CharField(
+        max_length=20,
+        choices=COMMENT_TYPES,
+        verbose_name=&quot;Тип комментария&quot;
+    )
+    rating = models.IntegerField(
+        verbose_name=&quot;Рейтинг (1-10)&quot;,
+        help_text=&quot;Оцените от 1 до 10&quot;
+    )
+    created_at = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name=&quot;Дата создания&quot;
+    )
+
+    class Meta:
+        verbose_name = &quot;Отзыв&quot;
+        verbose_name_plural = &quot;Отзывы&quot;
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f&quot;Отзыв {self.author.username} к {self.race.name}&quot;
+</code></pre>
+<h3 id="_13">Ключевые представления</h3>
+<p>Создание отзыва к гонке (<code>views.py</code>):</p>
+<pre><code class="language-python">@login_required
+def review_create(request, pk):
+    &quot;&quot;&quot;Создание отзыва к гонке&quot;&quot;&quot;
+    race = get_object_or_404(Race, pk=pk)
+
+    if request.method == 'POST':
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            review = form.save(commit=False)
+            review.race = race
+            review.author = request.user
+            review.save()
+            messages.success(request, 'Ваш отзыв добавлен!')
+            return redirect('race_detail', pk=pk)
+    else:
+        form = ReviewForm()
+
+    return render(request, 'racing/review_form.html', {'form': form, 'race': race})
+</code></pre>
+<h3 id="_14">Результат работы</h3>
+<p>Миграции для моделей лабораторной работы:</p>
+<p><img alt="Миграции ЛР2" src="../img/lr_migrations.png" /></p>
+<p>Вход в систему:</p>
+<p><img alt="Вход" src="../img/lr_login.png" /></p>
+<p>Список гонок:</p>
+<p><img alt="Список гонок" src="../img/lr_racing_list.png" /></p>
+<p>Страница гонки с участниками и отзывами:</p>
+<p><img alt="Страница гонки" src="../img/lr_race_information.png" /></p>
+<p>Таблица всех заездов и результатов конкретной гонки:</p>
+<p><img alt="Таблица результатов" src="../img/lr_race_results.png" /></p>
+<p>Django Admin: указание администратором времени заезда и результата:</p>
+<p><img alt="Админка: результаты заездов" src="../img/lr_race_registration_admin.png" /></p>
+<hr />
+<h2 id="_15">Вывод</h2>
+<p>В ходе лабораторной работы были освоены практические навыки реализации web-сервисов средствами фреймворка Django. Спроектированы модели данных об автовладельцах и автогонках, реализованы CRUD-интерфейсы, регистрация и аутентификация пользователей, отзывы с рейтингом и типами комментариев, а также таблица всех заездов и результатов гонки. Освоена работа с Django Admin, формами ModelForm и шаблонизатором Django.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
